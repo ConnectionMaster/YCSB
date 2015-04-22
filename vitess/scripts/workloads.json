@@ -1,6 +1,7 @@
 {
         "workloads": [
 		{"action": "load", "workload": "a", "recordcount": "1", "threads": "1", "createtable" : "True"},
+<<<<<<< Updated upstream
                 {"action": "load", "workload": "a", "recordcount": "5000000", "threads": "500"},
                 {"action": "run", "workload": "b", "recordcount": "5000000", "operationcount": "5000000", "threads": "100"},
                 {"action": "run", "workload": "c", "recordcount": "5000000", "operationcount": "5000000", "threads": "100"},
@@ -14,6 +15,29 @@
                 {"action": "run", "workload": "c", "recordcount": "5000000", "operationcount": "5000000", "threads": "500"},
                 {"action": "run", "workload": "b", "recordcount": "5000000", "operationcount": "5000000", "threads": "600"},
                 {"action": "run", "workload": "c", "recordcount": "1000000", "operationcount": "1000000", "threads": "600"}
+=======
+                {"action": "load", "workload": "a", "recordcount": "1000000", "threads": "50"},
+                {"action": "run", "workload": "a", "recordcount": "1000000", "operationcount": "1000000", "threads": "10"},
+                {"action": "run", "workload": "b", "recordcount": "1000000", "operationcount": "1000000", "threads": "10"},
+                {"action": "run", "workload": "c", "recordcount": "1000000", "operationcount": "1000000", "threads": "10"},
+                {"action": "run", "workload": "f", "recordcount": "1000000", "operationcount": "1000000", "threads": "10"},
+                {"action": "run", "workload": "a", "recordcount": "1000000", "operationcount": "1000000", "threads": "20"},
+                {"action": "run", "workload": "b", "recordcount": "1000000", "operationcount": "1000000", "threads": "20"},
+                {"action": "run", "workload": "c", "recordcount": "1000000", "operationcount": "1000000", "threads": "20"},
+                {"action": "run", "workload": "f", "recordcount": "1000000", "operationcount": "1000000", "threads": "20"},
+                {"action": "run", "workload": "a", "recordcount": "1000000", "operationcount": "1000000", "threads": "30"},
+                {"action": "run", "workload": "b", "recordcount": "1000000", "operationcount": "1000000", "threads": "30"},
+                {"action": "run", "workload": "c", "recordcount": "1000000", "operationcount": "1000000", "threads": "30"},
+                {"action": "run", "workload": "f", "recordcount": "1000000", "operationcount": "1000000", "threads": "30"},
+                {"action": "run", "workload": "a", "recordcount": "1000000", "operationcount": "1000000", "threads": "40"},
+                {"action": "run", "workload": "b", "recordcount": "1000000", "operationcount": "1000000", "threads": "40"},
+                {"action": "run", "workload": "c", "recordcount": "1000000", "operationcount": "1000000", "threads": "40"},
+                {"action": "run", "workload": "f", "recordcount": "1000000", "operationcount": "1000000", "threads": "40"},
+                {"action": "run", "workload": "a", "recordcount": "1000000", "operationcount": "1000000", "threads": "50"},
+                {"action": "run", "workload": "b", "recordcount": "1000000", "operationcount": "1000000", "threads": "50"},
+                {"action": "run", "workload": "c", "recordcount": "1000000", "operationcount": "1000000", "threads": "50"},
+                {"action": "run", "workload": "f", "recordcount": "1000000", "operationcount": "1000000", "threads": "50"}
+>>>>>>> Stashed changes
         ]
 }
 
